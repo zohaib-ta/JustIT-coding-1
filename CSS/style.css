@@ -1,0 +1,22 @@
+body{
+    color: red;
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+    color: darkorange;
+    font-family: "Vast Shadow", serif;
+}
+
+#IDmainheading{
+    color: aqua;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.article { 
+    color: rgb(208, 27, 180);
+}
+
+

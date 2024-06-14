@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(226, 101, 43);
+}
+
+#idheader {
+    text-indent: 150px;
+}
+
+.article {
+    color: aqua;
+    width: 350px;
+    border: 15px solid blue;
+    padding: 25px; 
+    margin: 20px;
+    text-indent: 120px;
+    
+}
+
+div {
+    width: 300px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+
+
+

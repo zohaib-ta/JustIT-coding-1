@@ -1,0 +1,124 @@
+img{
+    height: 100px;
+    width: 100px;    
+    display: inline;
+}
+
+header{
+    background-color: aqua;
+    position: relative;
+    color: red;
+    width: 10;
+    z-index: 1000;
+
+
+
+}
+
+#submenu{ 
+    position: fixed;
+    right: 0;
+    top: 50px; 
+    z-index: 9999;
+
+
+    
+}
+
+#submenu nav{
+    width: 140px;
+    
+    
+} 
+
+
+h1{
+    display: inline;
+    margin-left: 35%;
+}
+
+nav{
+    display: inline;
+    right: 0;
+    width: 100; 
+    position: absolute;
+    top: 90px; 
+
+
+}
+
+header a:hover{
+    color: red;
+    background-color: purple;
+    
+
+}
+
+body {
+    background-color: #ffa07a;
+
+}
+
+iframe{
+    height: 300px;
+    width: 300px;
+}
+
+
+:root {
+
+    --blue: #1e90ff;
+    --red: #b33951;
+}
+
+.one {
+    color: var(--red)
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for contrast */
+}
+
+.container {
+    display: flex;
+    justify-content: center;    /* Center items horizontally */
+    flex-wrap: wrap;            /* Allow items to wrap */
+    margin: 10px 0;             /* Vertical margin between rows */
+}
+
+.item {
+    flex: 1 1 calc(33.333% - 20px); /* Flexible basis adjusted for spacing */
+    margin: 10px;                   /* Margin between items */
+    padding: 10px;                  /* Padding inside items */
+    background-color: rgb(255, 255, 255);        /* Background color for better contrast */
+    text-align: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;         /* Include padding and border in width calculation */
+    height: 400px;                  /* Adjust height for image accommodation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item h3 {
+    margin: 10px 0;                /* Margin for heading */
+    font-size: 18px;               /* Font size for heading */
+    color: #ee0707;                   /* Text color for heading */
+}
+
+.item img {
+    max-width: 100%;               /* Make image responsive */
+    height: auto;                  /* Maintain aspect ratio */
+    margin-bottom: 10px;           /* Space between image and text */
+    flex-grow: 1;                  /* Allow image to grow and fill space */
+}
+
+.item p {
+    margin: 10px 0;                /* Margin for paragraph */
+    font-size: 14px;               /* Font size for paragraph */
+    color: #666;                   /* Text color for paragraph */
+}
